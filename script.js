@@ -28,7 +28,7 @@ request.onload = function(){
    
 }
 
-// // // //Question 3:Print all the countries names,Regions,Sub-region and population:
+// // // //Question 3:Print all the countries names in console:
 var request1 = new XMLHttpRequest();
 request1.open("GET","https://restcountries.com/v3.1/all","true")
 request1.send();
