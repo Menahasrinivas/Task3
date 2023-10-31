@@ -1,0 +1,13 @@
+// //Question 1:Compare two JSON have the same properties without order:
+let obj1 = { "Name":"Person 1", Age: 5};
+// let obj2= {"Age": 26,"Name":"Person2" };
+// convert the object to JSON
+ let json1= JSON.stringify(obj1);
+ let json2= JSON.stringify(obj2);
+ if(json1===json2){
+    console.log("both are equal");
+ }
+ else
+ {
+     console.log("both are different");
+}
